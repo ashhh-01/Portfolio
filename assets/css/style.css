@@ -192,4 +192,5 @@ img{
 
 .show-menu{
     bottom: 0;
+    transition: 0.25s;
 }
