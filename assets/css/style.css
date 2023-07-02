@@ -6,7 +6,7 @@
 
     --hue-color: 250; 
 
-    --first-color: hsl(var(--hue-color), 69%, 61%)
+    --first-color: hsl(var(--hue-color), 69%, 69%)
     --first-color-second: hsl(var(--hue-color), 65%, 64%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -84,7 +84,7 @@ ul{
     list-style: none;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 img{
     max-width: 100%;
@@ -92,7 +92,7 @@ img{
 }
 
 .section{
-    padding: 3.2rem 0 4rem ;
+    padding: 3rem 0 4rem ;
 }
 .section_title{
     font-size: var(--h1-font-size);
@@ -101,7 +101,7 @@ img{
 }
 .section_subtitle{
     display: block;
-    font-size: var(--small-font-size);
+    font-size: var(--font-medium);
     margin-bottom: var(--mb-3);
     text-align: center;
 
@@ -223,7 +223,7 @@ img{
 }
 .home_blob{
     width: 250px;
-    fill:rebeccapurple;
+    fill:hsl(var(--hue-color), 69%, 69%);
 }
 .home_blob-img{
     width:170px;
