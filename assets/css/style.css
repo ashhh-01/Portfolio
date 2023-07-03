@@ -756,6 +756,9 @@ img{
     .uil-apps:before {
         content: ''!important;
     }
+    .certificates_btn{
+        justify-content: center;
+    }
     
 
 }
@@ -780,5 +783,8 @@ img{
     .uil-apps:before {
         content: ''!important;
     }
-    
+    .certificates_btn{
+        justify-content: center;
+    }
+
 }
