@@ -26,4 +26,6 @@ If you have any questions or feedback, please feel free to contact me!.
 
 Unicons by <a href="https://iconscout.com/">IconScout</a><br>
 Forms by <a href="https://formspree.io/">Formspree</a><br>
+Avatar Design by <b><i>Rusne Dapkevičiūtė</i><b>:mage_woman:
+<br>
 <a href="https://ashhh-01.github.io/Portfolio/">Portfolio</a>
