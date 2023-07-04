@@ -582,6 +582,11 @@ img{
 .show-scroll{
     bottom:5rem
 }
+.btn-change{
+    background-color: hsl(var(--hue-color), 69%, 61%);
+    border-radius: 0.5rem;
+    
+}
 ::-webkit-scrollbar{
     width: .60rem;
     background-color:var(--scroll-bar-color) ;
@@ -593,6 +598,9 @@ img{
 }
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--text-color-light);
+}
+.btn-change{
+    border: none;
 }
 @media screen and (max-width:350px){
     .container{
