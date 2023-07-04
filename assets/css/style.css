@@ -254,11 +254,11 @@ img{
     color: var(--first-color-alt);
 }
 .home_blob{
-    width: 250px;
-    fill:hsl(var(--hue-color), 69%, 69%);
+    width: 350px;
+    fill:hsl(var(--hue-color), 49%, 49%);
 }
 .home_blob-img{
-    width:170px;
+    width:165px;
 }
 .home_data{
     grid-column: 1/3;
