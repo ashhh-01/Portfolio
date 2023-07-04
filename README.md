@@ -10,6 +10,8 @@ This repository contains the code for my personal portfolio website. The website
 <li>The website is hosted on GitHub Pages.</li>
 <li>Easy to change the theme of the website.</li>
 </ul>
+<h3>Overview</h3>
+<span><img style="width:150px;" src="./assets/img/Phone1.png"><img style="width:450px" src="./assets/img/img2.png"><img style="width:450px" src="./assets/img/img3.png"></span>
 
 <h3>Getting Started</h3>
 To view the website, you can clone the repository and open the <code>index.html</code> file in a web browser.
