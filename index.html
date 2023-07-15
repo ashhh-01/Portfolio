@@ -61,6 +61,8 @@
             </nav>
     </header>
 
+
+    
     <main class="main">
         <section class="home section" id="home">
             <div class="home_container container grid">
@@ -308,6 +310,13 @@
             </div>
         </section>
 
+
+
+
+
+
+
+</section>
         <section class="portfolio section" id="portfolio">
             <h2 class="section_title">Projects</h2>
             <span class="section_subtitle">My work</span>
@@ -321,24 +330,96 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./assets/img/Project1.png" class="d-block w-100 portfolio_img" alt="...">
-                    <div class="carousel-caption d-none d-md-block portfolio_data">
-                    <h3 class="portfolio_title">Full stack Website</h3>
-                    <p class="portfolio_description">Yelp Camp is a website where you can view campgrounds and create your own. To view campgrounds, simply log in or sign up. Once you're logged in, you can create your own campground by providing a title, image, address, and short description. Explore the world's beautiful campgrounds through our website!</p>
-                  <a href="https://github.com/ashhh-01/YelpCamp" class="portfolio_button button button--flex button--small">
-                        Demo <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
+
+
+                    <img src="./assets/img/home.png" class="d-block w-100 portfolio_img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="d-flex justify-content-center">
+                            <a href="https://homebnb-qods.onrender.com/houses" class="mb-5 button portfolio_button"  >
+                                Demo <i class="uil uil-arrow-right button_icon"></i>      
+                          </a>                   
                     </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <div class="modal-title fs-5" id="exampleModalLabel">           
+                                <img src="./assets/img/home.png"alt="...">
+                              </div>
+                            </div>
+                            <div class="modal-body">
+                                <h6 class="portfolio_title">HomeBnB</h6>
+                                <p class="portfolio_description">This project is a full-stack web application that is a clone of Airbnb. It features CRUD functionality and authorization on both the front-end and back-end, with login and logout capabilities. Authorized users can post a home or leave a review. 
+                                    The application also has built-in map features and follows RESTful API and cloud data upload.</p>
+                                <h6>Tools used:</h6>
+                    
+                                <div class="d-flex justify-content-between">
+                                        <span >HTML5</span>
+                                        <span>CSS3</span>
+                                                <span>JavaScript</span>
+                                         </div>
+                                         <div class="d-flex justify-content-between">
+                                            <span>Bootstrap</span>
+                                            <span>NodeJs</span>
+                                                    <span>ExpressJS</span>
+                                             </div>
+                                             <div class="d-flex justify-content-between">
+                                                <span>EJS</span>
+                                                <span>MongoAtlas</span>
+                                                <span>Render/AWS EB</span>
+                                                 </div>
+                            </div>
+                            <div class="modal-footer">
+                              <a href="https://homebnb-qods.onrender.com/houses"><button type="button" 
+                                class="button portfolio_button">Demo
+                                <i class="uil uil-arrow-right button_icon"></i></button>      
+                            </a>  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                   </div>
+
+
+
                   <div class="carousel-item">
-                    <img src="./assets/img/Project2.png" class="d-block w-100 portfolio_img" alt="...">
-                    <div class="carousel-caption d-none d-md-block portfolio_data">
-                        <h3 class="portfolio_title">Automation bots</h3>
-                        <p class="portfolio_description">This project is a collection of bots that can be used to automate our tasks on various websites. The bots are written in Python and use Selenium to interact with the websites. The bots are modular, so they can be easily customized to scrape data from different websites.</p>
-                        <a href="https://github.com/ashhh-01/Web-Scrapping" class="portfolio_button button  button--flex button--small">
-                            Github <i class="uil uil-arrow-right button_icon"></i>
-                        </a>
+                    <img src="./assets/img/Project2.png" class="d-block w-100 portfolio_img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://github.com/ashhh-01/Web-Scrapping" class="mb-5 button portfolio_button"  >
+                            Source Code <i class="uil uil-arrow-right button_icon"></i>      
+                      </a>                   
                 </div>
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <div class="modal-title fs-5" id="exampleModalLabel">          
+                                 <img src="./assets/img/Project2.png"alt="...">
+                              </div>
+                            </div>
+                            <div class="modal-body">
+                                <h6>Selenium Bots</h6>
+                                <p class="portfolio_description">This project is a collection of bots that can be used to automate our tasks on various websites. The bots are written in Python and use Selenium to interact with the websites. The bots are modular, so they can be easily customized to scrape data from different websites.</p>
+                                <h6>Tools used:</h6>
+                    
+                                <div class="d-flex justify-content-between">
+                                        <span>Python</span>
+                                        <span>Selenium</span>
+                                         </div>
+
+                            </div>
+                            <div class="modal-footer">
+                              <a href="https://github.com/ashhh-01/Web-Scrapping"><button type="button" 
+                                class="button portfolio_button">Source Code
+                                <i class="uil uil-arrow-right button_icon"></i></button>      
+                            </a>  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

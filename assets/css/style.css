@@ -238,6 +238,9 @@ img {
   grid-template-columns: max-content;
   row-gap: 1rem;
 }
+.modal-body{
+  color: black;
+}
 
 .home_social-icon {
   font-size: 1.25rem;
@@ -439,16 +442,9 @@ img {
 .portfolio_img {
   width: 300px;
   border-radius: 0.5rem;
-  margin-bottom: 1.5rem;
   justify-self: center;
 }
-.portfolio_title {
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-5);
-}
-.portfolio_description {
-  margin-bottom: var(--mb-0-75);
-}
+
 .portfolio_button:hover .button_icon {
   transform: translateX(0.25rem);
 }
@@ -680,6 +676,7 @@ img {
     display: flex;
     column-gap: 2rem;
   }
+  
   .nav_menu {
     margin-left: auto;
   }
