@@ -447,6 +447,9 @@ img {
 .btn-qual{
   padding: 0.5rem;
 }
+.modal-header{
+  padding: 0!important;
+}
 
 /* portfolio */
 /* .portfolio_container{
