@@ -431,6 +431,22 @@ img {
 .qualification_active[data-content] {
   display: block;
 }
+.qual-card{
+  background-color: var(--container-color);
+  /* padding-left: 0!important; */
+}
+.qual-main-card{
+  background-color: var(--container-color)!important;
+  border: none!important;
+}
+.qual-card-text{
+  color:var(--text-color) ;
+  text-align: left;
+  text-justify: inter-word;
+}
+.btn-qual{
+  padding: 0.5rem;
+}
 
 /* portfolio */
 /* .portfolio_container{
