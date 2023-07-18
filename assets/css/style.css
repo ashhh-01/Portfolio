@@ -352,14 +352,19 @@ img {
   justify-content: center;
   margin-top: 1.1rem;
 }
+
+
+
+
 /* Skills */
-.carousel-control-next-icon {
+/* .carousel-control-next-icon {
   position: absolute;
   background-color: rgb(211, 212, 212);
   width: 1.5rem !important;
   height: 1.5rem !important;
   right: -0.1rem;
   border-radius: 50%;
+  background-color: var(--body-color)!important;
 }
 .carousel-control-prev-icon {
   position: absolute;
@@ -368,7 +373,7 @@ img {
   background-color: rgb(211, 212, 212);
   left: -0.5rem;
   border-radius: 50%;
-}
+} */
 /* Qualification */
 
 .qualification_tabs {
