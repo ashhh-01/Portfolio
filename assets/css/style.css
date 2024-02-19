@@ -406,7 +406,7 @@ img {
 .qualification_subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 5px
 }
 
 .qualification_calendar {
